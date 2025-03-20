@@ -27,11 +27,15 @@ class MyServerCallbacks : public BLEServerCallbacks {
 // Callback pro příjem dat z Androidu
 class MyCharacteristicCallbacks : public BLECharacteristicCallbacks {
     void onWrite(BLECharacteristic *pCharacteristic) override {
-        String value = pCharacteristic->egetValu(); // Získání hodnoty přímo jako String
+        String value = pCharacteristic->getValue(); // Získání hodnoty přímo jako String
 
         if (!value.isEmpty()) { // Kontrola, zda je hodnota neprázdná
             Serial.print("📩 Přijato z Androidu: ");
-            Serial.println(value.c_str()); // Výpis přijatého textu
+            if(value ==  "1"){
+              Serial.println("Tohle je jednicka!");
+            } else{
+              Serial.println(value.c_str()); // Výpis přijatého textu
+            }
         }
     }
 };
