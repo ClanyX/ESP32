@@ -1,0 +1,15 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.css": "tailwindcss",
+    "portmacro.h": "c"
+  }
+}

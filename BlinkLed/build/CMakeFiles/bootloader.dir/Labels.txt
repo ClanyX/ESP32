@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+P:/esp32/TestEsp/build/CMakeFiles/bootloader
+P:/esp32/TestEsp/build/CMakeFiles/bootloader.rule
+P:/esp32/TestEsp/build/CMakeFiles/bootloader-complete.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+P:/esp32/TestEsp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
